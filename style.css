@@ -10,7 +10,7 @@ header{
     box-sizing: border-box;
     padding: 50px;;
     text-align: center;
-    length:100%;
+    height:100%;
     width: 100%;
 }
 nav{
@@ -21,7 +21,7 @@ nav{
 }
 section{
     background: #ebebeb;
-    width:495px;
+    width: 455px;
     text-align: center;
     float: left;
     padding: 10px;
@@ -31,21 +31,27 @@ aside{
     background: #ebebeb;
     text-align: center;
     float: right;
-    padding: 10px;
-    width: 495px;
+    padding: 90px;
+    width: 30%;
+    height: 10%;
 }
 footer{
     background: #ebebeb;
     text-align: center;
-    float: bottom;
-    padding: 5%;
+    padding: 3%;
+    height: 50px;
+    /* width: 50%; */
+    float: center;
+    margin-top: 20%;
+    margin-bottom: 5%;
 }
 article{
     color:#ebebeb;
     background:#777;
     text-align: center;
-    length:100%;
-    width: 100%;;
+    height:100%;
+    width: 100%;
+    padding: 2px;
 }
 h1{
     color:#777;
